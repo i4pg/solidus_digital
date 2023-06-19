@@ -16,6 +16,7 @@ module SolidusDigital
         app.config.spree.calculators.shipping_methods << ::Spree::Calculator::Shipping::DigitalDelivery
         app.config.spree.stock_splitters << ::Spree::Stock::Splitter::DigitalSplitter
       end
+    end
 
     # use rspec for tests
     config.generators do |g|
